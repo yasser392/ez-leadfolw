@@ -18,6 +18,9 @@ dist-ssr
 # original raw footage kept locally for reference, not needed for deploy
 /raw-assets/
 
+# local Claude Code permissions, not project source
+.claude/settings.local.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
