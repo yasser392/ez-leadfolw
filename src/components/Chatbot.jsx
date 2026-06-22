@@ -75,7 +75,7 @@ export default function Chatbot() {
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.2 }}
             dir="rtl"
-            className="absolute bottom-20 left-0 w-[92vw] max-w-[380px] h-[520px] glass-card rounded-2xl shadow-glow flex flex-col overflow-hidden"
+            className="absolute bottom-20 left-0 w-[92vw] max-w-[380px] h-[min(520px,70vh)] glass-card rounded-2xl shadow-glow flex flex-col overflow-hidden"
             style={{ background: 'rgba(10,10,15,0.92)' }}
           >
             <div className="flex items-center justify-between px-4 py-3 border-b border-border">

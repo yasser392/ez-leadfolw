@@ -23,7 +23,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="font-cairo font-extrabold text-4xl md:text-6xl leading-[1.3] gradient-text mb-6"
+          className="font-cairo font-extrabold text-[26px] sm:text-4xl md:text-6xl leading-[1.35] break-normal gradient-text mb-6"
         >
           نساعد مراكز التكوين تحل مشكلة المقاعد الفارغة عن طريق نظام Qualified Course Leads Gen في أقل من 14 يوم
         </motion.h1>
